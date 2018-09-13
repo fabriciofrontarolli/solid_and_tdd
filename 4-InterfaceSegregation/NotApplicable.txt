@@ -1,0 +1,1 @@
+https://github.com/fabriciofrontarolli/designpatterns/blob/master/Strategy/ExchangeHouse.cs

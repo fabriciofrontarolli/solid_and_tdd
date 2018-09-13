@@ -1,0 +1,29 @@
+{
+  "name": "solidandtdd",
+  "version": "1.0.0",
+  "description": "A SOLID and TDD training",
+  "main": "index.js",
+  "scripts": {
+    "start-api": "nodemon index.js",
+    "test": "./node_modules/.bin/mocha ./6-TDD/tests/tests.js"
+  },
+  "keywords": [
+    "solid",
+    "tdd",
+    "nodejs"
+  ],
+  "author": "Fabricio C. Frontarolli",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "chai": "^4.1.2",
+    "express": "^4.16.3",
+    "mocha": "^5.2.0",
+    "nyc": "^13.0.1",
+    "proxyquire": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
